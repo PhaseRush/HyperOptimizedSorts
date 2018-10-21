@@ -1,0 +1,6 @@
+[error] C:\Users\leozh\Documents\HighlyOptimizedSorts\src\main\scala\algorithms\MiracleSort.scala:23:17: type mismatch;
+[error]  found   : Unit
+[error]  required: List[Int]
+[error]     Thread.sleep(util.Random.nextInt(1000))
+[error]                 ^
+[error] one error found
