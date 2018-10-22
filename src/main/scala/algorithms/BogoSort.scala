@@ -5,10 +5,11 @@ import sendhelp.Util
 object BogoSort {
 
   def sortArray(array: Array[Int]) : Array[Int] = {
-    while(!Util.arrayIsSorted(array)) {
-      Util.shuffleArray(array)
+    var sortedArray: Array[Int] = array.clone()
+    while(!Util.arrayIsSorted(sortedArray)) {
+      sortedArray = Util.shuffleArray(sortedArray)
     }
-    array
+    sortedArray
   }
 
   def sortList(list: List[Int]) : List[Int] = {

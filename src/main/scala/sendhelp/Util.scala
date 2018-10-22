@@ -15,10 +15,16 @@ object Util {
     arrayIsSorted(list.toArray)
   }
 
+  def subArrayIsSorted(array : Array[Int], start : Int = 0, end : Int) : Boolean = {
+    return arrayIsSorted(array.slice(start, end))
+  }
+
   def shuffleArray(array: Array[Int]) : Array[Int] =
     return util.Random.shuffle(array.toSeq).toArray
 
   def shuffleList(list : List[Int]) : List[Int] =
     return util.Random.shuffle(list)
 
+  def quantumRandomize(array: Array[Int]) : Array[Int] = array
+  def quantumRandomize(list: List[Int]) : List[Int] = list
 }
