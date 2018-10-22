@@ -11,7 +11,6 @@ object QuantumBogoSort {
   def sortArray(array: Array[Int]): Array[Int] = {
     while (true) {
       val currentUniverse = new Universe(array, dannieboop = new Danthonywalker5512)
-      val currentDannie = currentUniverse.dannie
       Util.quantumRandomize(currentUniverse.sortedArray)
 
       if (!Util.arrayIsSorted(currentUniverse.sortedArray)) {
