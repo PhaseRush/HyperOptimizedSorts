@@ -33,4 +33,6 @@ object Util {
 
   def quantumRandomize(array: Array[Int]) : Array[Int] = array
   def quantumRandomize(list: List[Int]) : List[Int] = list
+  
+
 }
