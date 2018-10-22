@@ -9,10 +9,9 @@ import sendhelp.Util
 object QuantumBogoSort {
 
   def sortArray(array: Array[Int]): Array[Int] = {
-    var currentUniverse: Universe = new Universe()
-    var currentDannie = currentUniverse.dannie
     while (true) {
-      currentUniverse = new Universe(array, dannieboop = currentDannie)
+      val currentUniverse = new Universe(array, dannieboop = currentDannie)
+      val currentDannie = currentUniverse.dannie
       Util.quantumRandomize(currentUniverse.sortedArray)
 
       if (!Util.arrayIsSorted(currentUniverse.sortedArray)) {
@@ -21,6 +20,5 @@ object QuantumBogoSort {
       }
       else return currentUniverse.sortedArray
     }
-    return currentUniverse.sortedArray
   }
 }
