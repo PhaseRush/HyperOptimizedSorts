@@ -2,6 +2,12 @@ package sendhelp
 
 object Util {
 
+  def printArray(array: Array[Int]): Unit
+  = for (x <- array) {
+    print(x)
+    print("\t")
+  }
+
   def arrayIsSorted(array: Array[Int]) : Boolean = {
     for (x <- 0 until array.length - 1) {
       if (array(x) > array(x+1)) {

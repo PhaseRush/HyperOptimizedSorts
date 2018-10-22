@@ -18,11 +18,5 @@ object Main{
 
   }
 
-  def printArray(array: Array[Int]): Unit
-  = for (x <- array) {
-    print(x)
-    print("\t")
-  }
-
 }
 
