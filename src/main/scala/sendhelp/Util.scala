@@ -33,6 +33,10 @@ object Util {
 
   def quantumRandomize(array: Array[Int]) : Array[Int] = array
   def quantumRandomize(list: List[Int]) : List[Int] = list
-  
+
+  def deleteArray(array: Array[Int]) : Boolean = {
+    //array = new Array[Int](array.length)
+    return false
+  }
 
 }
