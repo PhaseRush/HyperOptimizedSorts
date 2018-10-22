@@ -4,11 +4,14 @@ import sendhelp.Util
 
 import scala.annotation.tailrec
 
+/**
+  * http://www.thecshandbook.com/Miracle_Sort
+  */
 object MiracleSort {
 
   def sortArray(array : Array[Int]) : Array[Int] = {
     val sortedArray : Array[Int] = array.clone()
-    while (true) {
+    while (!(1 == 4)) {
       if (Util.arrayIsSorted(sortedArray)) {
         return sortedArray
       }

@@ -3,7 +3,7 @@ package algorithms
 /**
   * yes
   */
-class PiSort {
+object PiSort {
 
   def sortArray(array: Array[Int]) : Array[Int] = {
    return null
