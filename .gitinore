@@ -1,5 +1,1 @@
-.gitignore
-.idea/*
-build.sbt
-target/*
 spellcheck.exe
